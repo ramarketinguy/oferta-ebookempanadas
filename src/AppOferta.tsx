@@ -25,7 +25,7 @@ function AppOferta() {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0 overflow-hidden bg-[#2B2B2B]">
           <img 
-            src="/hero.png" 
+            src="/hero.webp" 
             alt="Empanadas caseras jugosas" 
             className="w-full h-full object-cover object-bottom md:object-center scale-[1.5] md:scale-100 opacity-80 origin-bottom md:origin-center"
           />
@@ -90,7 +90,7 @@ function AppOferta() {
               initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}
               className="rounded-2xl shadow-2xl overflow-hidden w-full aspect-[4/3] bg-white relative"
             >
-              <img src="/masas.png" alt="Masas perfectas" className="absolute inset-0 w-full h-full object-cover object-top" />
+              <img src="/masas.webp" alt="Masas perfectas" className="absolute inset-0 w-full h-full object-cover object-top" />
             </motion.div>
             
             <motion.div 
@@ -138,7 +138,7 @@ function AppOferta() {
               className="bg-[#F2E8DF]/50 rounded-2xl p-6 border border-[#D96E4C]/20 shadow-lg hover:shadow-xl transition-shadow"
             >
               <div className="h-72 flex items-center justify-center rounded-xl overflow-hidden mb-6 bg-[#F2E8DF]">
-                <img src="/masas.png" alt="Masas" className="w-full h-full object-cover scale-[1.6]" style={{ objectPosition: '50% 50%' }} />
+                <img src="/masas.webp" alt="Masas" className="w-full h-full object-cover scale-[1.6]" style={{ objectPosition: '50% 50%' }} />
               </div>
               <h3 className="font-serif text-2xl font-bold text-[#D96E4C] mb-3">Módulo 1: La Base Perfecta</h3>
               <p className="text-[#2B2B2B]/80">Receta paso a paso para la masa clásica (con grasa), masa integral y el secreto mejor guardado para lograr una masa sin TACC espectacular.</p>
@@ -149,7 +149,7 @@ function AppOferta() {
               className="bg-[#F2E8DF]/50 rounded-2xl p-6 border border-[#D96E4C]/20 shadow-lg hover:shadow-xl transition-shadow"
             >
               <div className="h-72 flex items-center justify-center rounded-xl overflow-hidden mb-6 bg-[#F2E8DF]">
-                <img src="/Rellenos salados.png" alt="Rellenos Salados" className="w-full h-full object-cover scale-[1.1]" style={{ objectPosition: '50% 50%' }} />
+                <img src="/Rellenos salados.webp" alt="Rellenos Salados" className="w-full h-full object-cover scale-[1.1]" style={{ objectPosition: '50% 50%' }} />
               </div>
               <h3 className="font-serif text-2xl font-bold text-[#D96E4C] mb-3">Módulo 2: Salados para Aplaudir</h3>
               <p className="text-[#2B2B2B]/80">+10 recetas detalladas. Carne cortada a cuchillo, pollo cremoso, espinaca y ricota, caprese, puerro y muchas variedades más.</p>
@@ -160,7 +160,7 @@ function AppOferta() {
               className="bg-[#F2E8DF]/50 rounded-2xl p-6 border border-[#D96E4C]/20 shadow-lg hover:shadow-xl transition-shadow"
             >
               <div className="h-72 flex items-center justify-center rounded-xl overflow-hidden mb-6 bg-[#F2E8DF]">
-                <img src="/dulces.png" alt="Rellenos Dulces" className="w-full h-full object-cover scale-[1.6]" style={{ objectPosition: '50% 50%' }} />
+                <img src="/dulces.webp" alt="Rellenos Dulces" className="w-full h-full object-cover scale-[1.6]" style={{ objectPosition: '50% 50%' }} />
               </div>
               <h3 className="font-serif text-2xl font-bold text-[#D96E4C] mb-3">Módulo 3: El Toque Dulce</h3>
               <p className="text-[#2B2B2B]/80">¿Te imaginás una empanada de dulce de leche y nuez? ¿O batata y coco? Opciones fritas y al horno perfectas para acompañar unos lindos mates.</p>
@@ -178,7 +178,7 @@ function AppOferta() {
               className="w-full md:w-2/5 relative"
             >
               <div className="absolute inset-0 bg-[#D4AF37] transform translate-x-4 translate-y-4 rounded-2xl z-0"></div>
-              <img src="/flavia.png" alt="Flavia Pereira" className="relative z-10 w-full h-[500px] object-cover rounded-2xl shadow-2xl" />
+              <img src="/flavia.webp" alt="Flavia Pereira" className="relative z-10 w-full h-[500px] object-cover rounded-2xl shadow-2xl" />
             </motion.div>
             
             <motion.div 
